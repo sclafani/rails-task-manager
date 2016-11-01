@@ -1,0 +1,6 @@
+<%= link_to "Back to Tasks", tasks_path %>
+<h2><%= @task.name %></h2>
+<ul>
+  <li><%= @task.content %></li>
+  <li><%= "completed: #{@task.completed ? 'X' : ''}" %></li>
+</ul>
